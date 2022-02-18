@@ -58,7 +58,8 @@ const team = [
             </div>
             </div>
         </div>`
-        console.log(card)
+        //console.log(card)
     //inserire l'elemento nel container nell'html
+    teamContainer.innerHTML += card
   }
 
